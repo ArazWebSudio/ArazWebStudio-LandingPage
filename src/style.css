@@ -175,7 +175,7 @@
 
 @layer components {
     .progress-bar {
-        @apply w-100 h-4 rounded-full overflow-hidden;
+        @apply w-80 sm:w-100 h-2 sm:h-4 rounded-full overflow-hidden;
     }
 
     .progress-bar::-webkit-progress-bar {
